@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import profile from '../profile.jpg'
 
 
 class Sidebar extends Component {
@@ -6,7 +7,7 @@ class Sidebar extends Component {
     return (
       <div className="sidebar-wrapper">
           <div className="profile-container">
-              <img className="profile" src="/images/profile.jpg" width="150" height="150" alt="" />
+              <img className="profile" src={profile} width="150" height="150" alt="" />
               <h1 className="name">Glen Anna Abellana</h1>
               <h3 className="tagline">Computer Engineering Student</h3>
           </div>
